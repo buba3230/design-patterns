@@ -1,0 +1,20 @@
+<h4>Pizza with minimum of products:</h4>
+{{minimalPizzaProducts}}
+
+<h4>Pizza with maximum of products:</h4>
+{{maximalPizzaProducts}}
+
+<h4>Custom pizza:</h4>
+<div class="panels">
+    <button (click)="reset()">Reset</button>
+    <button (click)="getCustomPizza()">Build</button>
+    <button (click)="addCheese()">Add cheese</button>
+    <button (click)="addMeat()">Add meat</button>
+    <button (click)="addSausage()">Add sausage</button>
+    <button (click)="addTomatoes()">Add tomatoes</button>
+    <button (click)="addPineapple()">Add pineapple</button>
+    <button (click)="addKetchup()">Add ketchup</button>
+    <button (click)="addMayonnaise()">Add mayonnaise</button>
+</div>
+
+{{customPizza}}

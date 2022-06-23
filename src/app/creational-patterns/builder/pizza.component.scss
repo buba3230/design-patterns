@@ -1,0 +1,10 @@
+.panels {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+button {
+    width: 120px;
+    border-radius: 5px;
+    height: 40px;
+}
