@@ -1,0 +1,21 @@
+<h3>Logistics:</h3>
+<div class="info">
+    <div class="base">
+        <h4>Base logistics:</h4>
+        <div *ngFor="let plan of logisticsPlan">
+            {{plan}}
+        </div>
+    </div>
+    <div class="road">
+        <button (click)="createTruck()">Create truck</button>
+        <div *ngFor="let truck of truckFleet">
+            {{truck}}
+        </div>
+    </div>
+    <div class="see">
+        <button (click)="createShip()">Create ship</button>
+        <div *ngFor="let ship of shipFleet">
+            {{ship}}
+        </div>
+    </div>
+</div>
