@@ -1,1 +1,13 @@
-<router-outlet></router-outlet>
+<div class="main">
+    <div class="sidenav">
+        <h4>Creational Patterns</h4>
+        <button (click)="abstractFactory()">abstract-factory</button>
+        <button (click)="abstractMethod()">abstract-method</button>
+        <button (click)="builder()">builder</button>
+        <button (click)="prototype()">pprototype</button>
+        <button (click)="singleton()">singleton</button>
+    </div>
+    <div class="content">
+        <router-outlet></router-outlet>
+    </div>
+</div>

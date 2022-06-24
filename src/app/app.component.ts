@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,25 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'design-patterns';
+
+  constructor(private router: Router) { }
+  abstractFactory(): void {
+    this.router.navigate(['abstract-factory']);
+  }
+
+  abstractMethod(): void {
+    this.router.navigate(['abstract-method']);
+  }
+
+  builder(): void {
+    this.router.navigate(['builder']);
+  }
+
+  prototype(): void {
+    this.router.navigate(['prototype']);
+  }
+
+  singleton(): void {
+    this.router.navigate(['singleton']);
+  }
 }

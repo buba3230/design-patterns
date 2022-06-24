@@ -6,6 +6,7 @@ const routes: Routes = [
   { path: 'builder', loadChildren: () => import('./creational-patterns/builder/pizza.module').then(m => m.PizzaModule) },
   { path: 'abstract-method', loadChildren: () => import('./creational-patterns/abstract-method/logistics.module').then(m => m.LogisticsModule) },
   { path: 'prototype', loadChildren: () => import('./creational-patterns/prototype/prototype.module').then(m => m.PrototypeModule) },
+  { path: 'singleton', loadChildren: () => import('./creational-patterns/singleton/singleton.module').then(m => m.SingletonModule) },
 ];
 
 @NgModule({

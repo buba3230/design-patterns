@@ -1,24 +1,24 @@
 import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
-import { CloneComponent } from "./clone.component";
+import { SingletonComponent } from "./singleton/singleton.component";
 
 const routes: Routes = [
     {
         path: '',
-        component: CloneComponent,
+        component: SingletonComponent,
     },
 ];
 
 @NgModule({
-    declarations: [CloneComponent],
+    declarations: [SingletonComponent],
     imports: [
         CommonModule,
         RouterModule.forChild(routes),
     ],
     exports: [
-        CloneComponent,
+        SingletonComponent,
     ],
     providers: []
 })
-export class PrototypeModule { }
+export class SingletonModule { }

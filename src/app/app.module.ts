@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AbstractFactoryModule } from './creational-patterns/abstract-fatory/abstract-factory.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +11,6 @@ import { AbstractFactoryModule } from './creational-patterns/abstract-fatory/abs
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AbstractFactoryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
