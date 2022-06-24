@@ -32,4 +32,12 @@ export class AppComponent {
   adapter(): void {
     this.router.navigate(['adapter']);
   }
+
+  bridge(): void {
+    this.router.navigate(['bridge']);
+  }
+
+  composite(): void {
+    this.router.navigate(['composite']);
+  }
 }
