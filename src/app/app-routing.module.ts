@@ -10,6 +10,7 @@ const routes: Routes = [
   { path: 'adapter', loadChildren: () => import('./structural-patterns/adapter/adapter.module').then(m => m.AdapterModule) },
   { path: 'bridge', loadChildren: () => import('./structural-patterns/bridge/bridge.module').then(m => m.BridgeModule) },
   { path: 'composite', loadChildren: () => import('./structural-patterns/composite/composite.module').then(m => m.CompositeModule) },
+  { path: 'decorator', loadChildren: () => import('./structural-patterns/decorator/decorator.module').then(m => m.DecoratorModule) },
 ];
 
 @NgModule({
