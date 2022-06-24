@@ -44,4 +44,8 @@ export class AppComponent {
   decorator(): void {
     this.router.navigate(['decorator']);
   }
+
+  facade(): void {
+    this.router.navigate(['facade']);
+  }
 }
