@@ -7,6 +7,7 @@ const routes: Routes = [
   { path: 'abstract-method', loadChildren: () => import('./creational-patterns/abstract-method/logistics.module').then(m => m.LogisticsModule) },
   { path: 'prototype', loadChildren: () => import('./creational-patterns/prototype/prototype.module').then(m => m.PrototypeModule) },
   { path: 'singleton', loadChildren: () => import('./creational-patterns/singleton/singleton.module').then(m => m.SingletonModule) },
+  { path: 'adapter', loadChildren: () => import('./structural-patterns/adapter/singleton.module').then(m => m.AdapterModule) },
 ];
 
 @NgModule({

@@ -28,4 +28,8 @@ export class AppComponent {
   singleton(): void {
     this.router.navigate(['singleton']);
   }
+
+  adapter(): void {
+    this.router.navigate(['adapter']);
+  }
 }
