@@ -23,6 +23,7 @@ const routes: Routes = [
   { path: 'state', loadChildren: () => import('./behavioral-patterns/state/state.module').then(m => m.StateModule) },
   { path: 'strategy', loadChildren: () => import('./behavioral-patterns/strategy/strategy.module').then(m => m.StrategyModule) },
   { path: 'template-method', loadChildren: () => import('./behavioral-patterns/template-method/template-method.module').then(m => m.TemplateMethodModule) },
+  { path: 'visitor', loadChildren: () => import('./behavioral-patterns/visitor/visitor.module').then(m => m.VisitorModule) },
 ];
 
 @NgModule({
