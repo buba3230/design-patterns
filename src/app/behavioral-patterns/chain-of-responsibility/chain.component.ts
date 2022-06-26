@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { CheckForAdmin, CheckForAuthorized, CheckForSuperuser, Handler } from './handler';
 
 @Component({
-    selector: 'app-forest',
+    selector: 'app-chain',
     template:
         `
             <h4>Single handle:</h4>
