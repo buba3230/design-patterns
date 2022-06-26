@@ -32,11 +32,6 @@ export class ObserverComponent implements OnInit {
     observer2 = new SamsungObserver();
     log: string[] = [];
     constructor() {
-
-
-    }
-
-    ngOnInit(): void {
         this.log.push(this.phoneSale.attach(this.observer1));
         this.log.push(this.phoneSale.attach(this.observer2));
 
@@ -45,5 +40,9 @@ export class ObserverComponent implements OnInit {
         this.log.push(this.phoneSale.detach(this.observer1));
 
         this.log.push(this.phoneSale.setSaleOnPhone('Samsung'));
+    }
+
+    ngOnInit(): void {
+
     }
 }

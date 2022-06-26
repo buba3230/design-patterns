@@ -20,6 +20,7 @@ const routes: Routes = [
   { path: 'mediator', loadChildren: () => import('./behavioral-patterns/mediator/mediator.module').then(m => m.MediatorModule) },
   { path: 'memento', loadChildren: () => import('./behavioral-patterns/memento/memento.module').then(m => m.MementoModule) },
   { path: 'observer', loadChildren: () => import('./behavioral-patterns/observer/observer.module').then(m => m.ObserverModule) },
+  { path: 'state', loadChildren: () => import('./behavioral-patterns/state/state.module').then(m => m.StateModule) },
 ];
 
 @NgModule({
