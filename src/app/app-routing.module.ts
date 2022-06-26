@@ -17,6 +17,7 @@ const routes: Routes = [
   { path: 'chain-of-responsibility', loadChildren: () => import('./behavioral-patterns/chain-of-responsibility/chain.module').then(m => m.ChainModule) },
   { path: 'command', loadChildren: () => import('./behavioral-patterns/command/command.module').then(m => m.CommandModule) },
   { path: 'iterator', loadChildren: () => import('./behavioral-patterns/iterator/iterator.module').then(m => m.IteratorModule) },
+  { path: 'mediator', loadChildren: () => import('./behavioral-patterns/mediator/mediator.module').then(m => m.MediatorModule) },
 ];
 
 @NgModule({
