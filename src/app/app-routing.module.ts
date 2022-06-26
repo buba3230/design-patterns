@@ -16,6 +16,7 @@ const routes: Routes = [
   { path: 'proxy', loadChildren: () => import('./structural-patterns/proxy/proxy.module').then(m => m.ProxyModule) },
   { path: 'chain-of-responsibility', loadChildren: () => import('./behavioral-patterns/chain-of-responsibility/chain.module').then(m => m.ChainModule) },
   { path: 'command', loadChildren: () => import('./behavioral-patterns/command/command.module').then(m => m.CommandModule) },
+  { path: 'iterator', loadChildren: () => import('./behavioral-patterns/iterator/iterator.module').then(m => m.IteratorModule) },
 ];
 
 @NgModule({
