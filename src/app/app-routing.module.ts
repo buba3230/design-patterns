@@ -12,6 +12,8 @@ const routes: Routes = [
   { path: 'composite', loadChildren: () => import('./structural-patterns/composite/composite.module').then(m => m.CompositeModule) },
   { path: 'decorator', loadChildren: () => import('./structural-patterns/decorator/decorator.module').then(m => m.DecoratorModule) },
   { path: 'facade', loadChildren: () => import('./structural-patterns/facade/facade.module').then(m => m.FacadeModule) },
+  { path: 'flyweight', loadChildren: () => import('./structural-patterns/flyweight/forest.module').then(m => m.ForestModule) },
+  { path: 'proxy', loadChildren: () => import('./structural-patterns/proxy/proxy.module').then(m => m.ProxyModule) },
 ];
 
 @NgModule({

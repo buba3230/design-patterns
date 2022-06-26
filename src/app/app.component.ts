@@ -48,4 +48,12 @@ export class AppComponent {
   facade(): void {
     this.router.navigate(['facade']);
   }
+
+  flyweight(): void {
+    this.router.navigate(['flyweight']);
+  }
+
+  proxy(): void {
+    this.router.navigate(['proxy']);
+  }
 }
