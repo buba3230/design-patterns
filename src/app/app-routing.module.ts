@@ -21,6 +21,7 @@ const routes: Routes = [
   { path: 'memento', loadChildren: () => import('./behavioral-patterns/memento/memento.module').then(m => m.MementoModule) },
   { path: 'observer', loadChildren: () => import('./behavioral-patterns/observer/observer.module').then(m => m.ObserverModule) },
   { path: 'state', loadChildren: () => import('./behavioral-patterns/state/state.module').then(m => m.StateModule) },
+  { path: 'strategy', loadChildren: () => import('./behavioral-patterns/strategy/strategy.module').then(m => m.StrategyModule) },
 ];
 
 @NgModule({
