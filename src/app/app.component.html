@@ -1,19 +1,21 @@
 <div class="main">
     <div class="sidenav">
         <h4>Creational Patterns</h4>
-        <button (click)="abstractFactory()">abstract-factory</button>
-        <button (click)="abstractMethod()">abstract-method</button>
-        <button (click)="builder()">builder</button>
-        <button (click)="prototype()">prototype</button>
-        <button (click)="singleton()">singleton</button>
+        <a routerLink="/abstract-factory" class="btn" routerLinkActive="active">abstract-factory</a>
+        <a routerLink="/abstract-method" class="btn" routerLinkActive="active">abstract-method</a>
+        <a routerLink="/builder" class="btn" routerLinkActive="active">builder</a>
+        <a routerLink="/prototype" class="btn" routerLinkActive="active">prototype</a>
+        <a routerLink="/singleton" class="btn" routerLinkActive="active">singleton</a>
         <h4>Creational Patterns</h4>
-        <button (click)="adapter()">adapter</button>
-        <button (click)="bridge()">bridge</button>
-        <button (click)="composite()">composite</button>
-        <button (click)="decorator()">decorator</button>
-        <button (click)="facade()">facade</button>
-        <button (click)="flyweight()">flyweight</button>
-        <button (click)="proxy()">proxy</button>
+        <a routerLink="/adapter" class="btn" routerLinkActive="active">adapter</a>
+        <a routerLink="/bridge" class="btn" routerLinkActive="active">bridge</a>
+        <a routerLink="/composite" class="btn" routerLinkActive="active">composite</a>
+        <a routerLink="/decorator" class="btn" routerLinkActive="active">decorator</a>
+        <a routerLink="/facade" class="btn" routerLinkActive="active">facade</a>
+        <a routerLink="/flyweight" class="btn" routerLinkActive="active">flyweight</a>
+        <a routerLink="/proxy" class="btn" routerLinkActive="active">proxy</a>
+        <h4>Behavioral Patterns</h4>
+        <a routerLink="/chain-of-responsibility" class="btn" routerLinkActive="active">Chain of responsibility</a>
     </div>
     <div class="content">
         <router-outlet></router-outlet>

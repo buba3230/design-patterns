@@ -14,6 +14,7 @@ const routes: Routes = [
   { path: 'facade', loadChildren: () => import('./structural-patterns/facade/facade.module').then(m => m.FacadeModule) },
   { path: 'flyweight', loadChildren: () => import('./structural-patterns/flyweight/forest.module').then(m => m.ForestModule) },
   { path: 'proxy', loadChildren: () => import('./structural-patterns/proxy/proxy.module').then(m => m.ProxyModule) },
+  { path: 'chain-of-responsibility', loadChildren: () => import('./behavioral-patterns/chain-of-responsibility/chain.module').then(m => m.ChainModule) },
 ];
 
 @NgModule({

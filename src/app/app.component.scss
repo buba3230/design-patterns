@@ -7,6 +7,22 @@
         display: flex;
         flex-direction: column;
         width: 200px;
+
+        .btn {
+            display: flex;
+            width: 100%;
+            height: 30px;
+            border: 1px solid black;
+            background-color:aquamarine;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .active {
+            background-color:aqua;
+        }
     }
 
     .content {
@@ -15,4 +31,5 @@
         justify-content: center;
         width: 800px;
     }
+
 }
